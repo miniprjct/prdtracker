@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fec3c3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 350px;
+  margin: 100px auto;
+  background-color: #d88686;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 162px;
+  background-color: #660303;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#predictionResult {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+#chatbotContainer {
+  position: fixed;
+  bottom:0;
+  left: 75%;
+  width: 25%;
+  background-color: #bd7c7c;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+#chatbotImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#chatbotImage {
+  width: 50%;
+  height: 50%;
+}
+
+#chatbotMessages {
+  max-height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+}
+
+#userInput {
+  border: 1px solid #1f1d1d;
+  left: 75%;
+  width: 85%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#sendButton {
+  background-color: #660303;
+  color: #fff;
+  border: none;
+  padding: 9px 40%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Rest of the CSS styles remain the same */
+
+#calendar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.day {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+.period {
+  background-color: #da5c5c;
+}
+
+.fertility {
+  background-color: #65b07e;
+}

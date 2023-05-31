@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CodeRed - The Period Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CodeRed - The Period Tracker</h1>
+  </header>
+
+  <div class="container">
+    <form id="periodForm">
+      <label for="lastPeriod">Last Period Start Date:</label>
+      <input type="date" id="lastPeriod" required>
+
+      <label for="cycleLength">Average Cycle Length (in days):</label>
+      <input type="number" id="cycleLength" required>
+
+      <button type="submit">Predict</button>
+    </form>
+
+    <div id="predictionResult"></div>
+    <div id="calendar"></div>
+
+    <div id="chatbotContainer">
+      <div id="chatbotImageContainer">
+        <img src="chatbot.jpeg" alt="Chatbot" id="chatbotImage">
+      </div>
+      <div id="chatbotMessages"></div>
+      <input type="text" id="userInput" placeholder="Ask a question...">
+      <button type="button" id="sendButton">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
